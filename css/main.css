@@ -1,0 +1,345 @@
+h1,h2,h3 {
+	display: block;
+	margin: 0px 0px 10px;
+	padding: 0px;
+	padding-bottom: 10px;
+	padding-top: 6px;
+	color: rgb(1, 106, 131);
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+h1 {
+	margin-bottom: -5px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+}
+
+h3 {
+	font-size: 2em;
+	margin-bottom: 0px;
+	padding-top: 10px;
+}
+
+table {
+	border-spacing: 0px;
+    border-top: 1px solid #aaa;
+    border-left: 1px solid #aaa;
+}
+
+table a {
+	color: #000;
+	padding: 5px;
+}
+
+table a:hover {
+	background-color: #ddffda;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	position: relative;
+	left: -1px;
+}
+
+table td, table th {
+    padding: 7px;
+    border-bottom: 1px solid #aaa;
+    border-right: 1px solid #aaa;
+}
+
+table td {
+	border-right: 1px dotted #aaa;
+}
+
+table th {
+	font-weight: normal;
+	font-size: 1.1em;
+}
+
+table th, #weights, #weights-custom select, #weight-custom-select {
+	background-color: #d3f0f6;
+}
+
+.compare {
+	background-color: #fff0c7;
+}
+
+.top-left {
+	background: -moz-linear-gradient(top, #d3f0f6 0%, #fff0c7 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #d3f0f6 0%,#fff0c7 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #d3f0f6 0%,#fff0c7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d3f0f6', endColorstr='#fff0c7',GradientType=0 ); /* IE6-9 */
+}
+
+input[type=button], input[type=submit], select, input, #help {
+	padding: 1px 14px;
+	font-size: 1.1em;
+	border-radius: 3px;
+}
+
+#help {
+	color: #000;
+	display: inline-block;
+	padding: 8px 30px;
+	background-color: #f5f5f5;
+	border: 1px solid #aaa;
+}
+
+#help:hover {
+	background-color: #ddffda;
+}
+
+#cats, #menu-rank ul, #fields {
+	margin-left: 0px;
+	padding-left: 0px;
+	margin-top: 5px;
+}
+
+#cats li, #menu-rank li, #fields li {
+	border-bottom: 1px dotted #9e9e9e;
+	position: relative;
+}
+
+#cats label, #menu-rank label, #fields label {
+}
+
+#cats input, #menu-rank input, #fields input {
+	margin-right: 10px;
+}
+
+.menu-wrapper {
+	padding: 5px;
+	padding-bottom: 0px;
+}
+
+.menu-wrapper > a {
+	color: #000;
+	text-decoration: none;
+	font-size: 1.3em;
+	display: block;
+	margin-top: 10px; 
+}	
+
+.menu {
+	margin-top: 10px;
+}
+
+.menu-wrapper.menu > .menu, .menu-wrapper.menu > a {
+	margin-top: 5px;
+	background-color: #efefef;
+	display: inline-block;
+}
+
+.switch-button {
+    font-weight: bold;
+    padding: 3px;
+}
+
+.switch-button.sel {
+    background-color: #333;
+    color: #efefef;
+}
+
+ul {
+	-webkit-column-count: 5;
+	-moz-column-count: 5;
+	column-count: 5;
+	list-style-type: none;
+}
+
+ul.no-cols {
+	-moz-column-count: initial;
+	column-count: initial;
+}
+
+.no-cols label {
+	font-weight: bold;
+}
+
+li {
+	padding: 5px;
+}
+
+.ratio-select > * {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin-right: 15px;
+}
+.ratio-wrapper {
+    background-color: #efefef;
+    padding: 10px;
+    border: 1px solid #aaa;
+}
+
+.ratio-num, .ratio-denom {
+    padding: 15px;
+}
+
+.ratio-num {
+    border-bottom: 1px solid #000;
+}
+
+.unit {
+	font-size: 0.8em;
+}
+
+#select-special { 
+	margin-left: 30px; 
+	display: inline-block;
+}
+
+#toggle-compare {
+	font-weight: bold; 
+}
+
+.comparing {
+	font-style: italic;
+	font-size: 1.1em;
+	padding: 5px;
+	background-color: #ffdcc1;
+	border: 1px solid #bdbdbd;
+}
+
+#nut-comparing { display: inline-block; }
+
+#compare-list {
+	margin: 7px 0px;
+}
+
+#compare-list > div {
+	margin-bottom: 6px;
+}
+
+#compare-list span {
+	padding: 5px;
+	background-color: #ffdcc1;
+	display: inline-block;
+	border: 1px solid #aaa;
+}
+
+#compare-list a {
+	margin-left: 5px;
+	text-decoration: none;
+	border: 1px solid #aaa;
+	padding: 6px 5px;
+	padding-bottom: 6px;
+	padding-bottom: 5px;
+	background-color: #fff;
+	color: #000;
+}
+
+#compare-list a:hover {
+	background-color: #d3f0f6;
+}
+
+#panes {
+	padding-left: 5px;
+}
+
+#graphs {
+	margin-top: 15px;
+}
+
+#graphs > div {
+	margin-top: 10px;
+	height: 200px; 
+}
+
+.pagination-showing {
+	margin-left: 22px;
+}
+
+.bigger {
+	font-size: 1.2em;
+}
+
+#results {
+	min-width: 550px;
+}
+
+#form-controls {
+	margin-top: 11px;
+}
+
+#form-controls > input {
+	padding: 7px 15px;
+}
+
+.contains-keywords {
+	background-color: #d3f0f6;
+}
+
+.filter-keywords {
+	background-color: #fff0c7;
+}
+
+#filters {
+	margin-top: 10px;
+}
+
+.add-filter, #add-again, #nutrient-format {
+	margin-left: 7px;
+}
+
+#menu-filters, .buttons-row, #menu-search {
+	margin-left: 7px;
+}
+
+#reset-rdi { 
+	background-color: #fff0c7;
+}
+
+#toggle-rdi, #menu-rdi {
+	margin-top: 10px;
+}
+
+#menu-options {
+	margin-top: 2px;
+}
+
+#weights-wrapper, #nutrition {
+	margin-top: 10px;
+}
+
+#compare-table {
+	margin-top: 10px;
+}
+
+#menu-form {
+	margin-bottom: 0px;
+}
+
+#results-pane, #graph-pane {
+	margin-top: 10px;
+}	
+
+#nutrition-pane .comparing {
+}
+
+.spaced, #nut-compare-button, #nut-comparing {
+	margin-left: 7px;
+}
+
+.pagination-top { 
+	margin-bottom: 3px; 
+}
+
+.pagination-bottom { 
+	margin-top: 3px;
+}
+
+.footnote {
+	position: absolute;
+	right: 10px;
+	color: #6e8aa5;
+	font-size: 0.8em;
+	text-decoration: none;
+}
+
+.footnote:hover {
+	background-color: #ddffda;
+}
+
+.footnote-note > div {
+	display: inline-block;
+}
