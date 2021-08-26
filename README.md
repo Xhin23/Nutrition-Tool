@@ -8,7 +8,7 @@ http://projects.gtx0.com/nutrition_tool/
 
 As well as documentation here:
 
-http://gtx0.com/j/nutrition-tool
+http://docs.gtx0.com/nutrition-tool
 
 === Features of the Nutrition Tool include ===
 
