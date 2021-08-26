@@ -4,7 +4,7 @@ https://ndb.nal.usda.gov/ndb/search/list?home=true
 
 You can find the tool here:
 
-http://gtx0.com/projects/nutrition_tool/
+http://projects.gtx0.com/nutrition_tool/
 
 As well as documentation here:
 
